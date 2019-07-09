@@ -49,15 +49,13 @@ nav{
 	height: 90vh;
 }
 .extender{
-	width: 50%;
 }
 
 .first{
-	text-align: left;
-
-	align-items: flex-end;
+	flex-direction: row;
+	align-items: center;
 	flex-direction: column;
-	padding-right: 5%;
+	padding-left: 550px;
 	color: #1baad6;
 }
 
