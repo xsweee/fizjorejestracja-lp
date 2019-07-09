@@ -9,7 +9,16 @@ html, body{
 	margin: 0;
 
 	background: radial-gradient(#7db9e8, #66ace4);
+
+	font-family: "Helvetica Neue", "Raleway", "Arial", sans-serif;
+	color: #fff;
 }
+
+h1{
+	font-size: 64px;
+	margin: 0;
+}
+
 nav{
 	display: flex;
 	justify-content: space-around;
@@ -17,7 +26,7 @@ nav{
 	padding: 10px;
 
 	background: #fff;
-	box-shadow: 0px 0px 15px -6px rgba(0,0,0,0.75);
+	box-shadow: 0px 0px 15px -5px rgba(0,0,0,0.75);
 	width: 100%;
 }
 
@@ -28,11 +37,56 @@ nav{
 .talk{
 	background: url('https://i.ibb.co/8YWCWLy/bg.png');
 	background-size: 100%;
-	width: 100%;
-	height: 200%;
+	width: 100vw;
+	height: 100%;
 }
 
 .full{
-	width: 100vh;
-	height: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+	height: 90vh;
+}
+.extender{
+	width: 50%;
+}
+
+.first{
+	text-align: left;
+
+	align-items: flex-end;
+	flex-direction: column;
+	padding-right: 5%;
+	color: #1baad6;
+}
+
+.paragraph{
+	text-align: left;
+	font-size: 24px;
+}
+
+.second{
+	background: #fff;
+}
+
+.carousel{
+
+}
+
+.footer{
+	width: 100%;
+	height: 300px;
+	background: #1baad6;
+	color: #fff;
+}
+
+.o-nas{
+	color: #fff;
+	background: #d13028;
+	padding: 20px;
+	border: 0;
+
+	font-size: 18px;
+	font-weight: bold;	
 }
