@@ -74,18 +74,47 @@ nav{
 }
 
 .carousel{
-	height: 200px;
+	overflow: hidden;
+	height: 300px;
+	width: 160%;
 	background:#63bad7;
 
 	display: flex;
-	align-items: center;
+
+}
+
+.carousel_item{
+	height: 200px;
+	color: #63bad7;
+}
+
+.carousel_item_content{
+	margin: 10px;
 }
 
 .footer{
+	display: flex;
+	justify-content: space-around;
 	width: 100%;
-	height: 300px;
-	background: #1baad6;
-	color: #fff;
+	height: 340px;
+	background: #fff;
+	color: #63bad7;
+
+}
+
+.footer_item{
+	padding-top: 50px;
+	width: 25%;
+	font-size: 18px;
+}
+
+.footer_item h2{
+	font-weight: 400;
+	color: #333;
+}
+
+.footer_item_black{
+	color: #333;
 }
 
 .readmore{
