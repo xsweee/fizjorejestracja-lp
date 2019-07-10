@@ -12,12 +12,19 @@ html, body{
 
 	font-family: "Helvetica Neue", "Raleway", "Arial", sans-serif;
 	color: #fff;
+	overflow-x: hidden;
 }
 
 h1{
 	font-size: 56px;
 	margin: 0;
 
+	color: #1baad6;
+}
+
+h2{
+	margin-bottom: 20px;
+	margin-top: 0;
 	color: #1baad6;
 }
 
@@ -63,6 +70,10 @@ nav{
 	color: #1baad6;
 }
 
+.extender{
+	padding-left: 300px;
+}
+
 .paragraph{
 	text-align: left;
 	font-size: 24px;
@@ -74,6 +85,7 @@ nav{
 }
 
 .carousel{
+	box-shadow: 0px 0px 15px -5px rgba(0,0,0,0.25);
 	overflow: hidden;
 	height: 300px;
 	width: 160%;
@@ -143,3 +155,65 @@ nav{
 	padding: 0 150px 0 50px;
 }
 
+.third{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.checklist{
+	display: flex;
+	padding: 22px;
+	color: #1baad6;
+	flex-direction: column;
+	justify-content: center;
+	font-size: 22px;
+
+	width: 40%;
+	background: #fcfcfc;
+	border-radius: 10px 0 0 10px;
+	height: 400px;
+}
+
+.checklist ul{
+	font-size: 18px;
+}
+
+.form{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	border-radius: 10px 10px 10px 10px;
+
+	width: 40%;
+	height: 500px;
+	background: #fff;
+	box-shadow: 0px 0px 15px -5px rgba(0,0,0,0.75);
+}
+
+.form input, .form textarea{
+	margin: 2px;
+	padding: 20px;
+	width: 450px;
+	font-size: 14px;
+	color: #91dcff;
+
+	background: #fff;
+	border: 2px solid #91dcff;
+	border-radius: 5px;
+}
+
+input::placeholder, textarea::placeholder{
+	color: #91dcff;
+}
+
+#send{
+	background: #91dcff !important;
+	color: #fff;
+}
+
+#send:hover{
+	background: #64c4f2 !important;
+	border: 2px solid #64c4f2;
+}
