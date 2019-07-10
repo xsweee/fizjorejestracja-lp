@@ -10,7 +10,7 @@ html, body{
 
 	background: radial-gradient(#63daff, #66ace4);
 
-	font-family: "Helvetica Neue", "Raleway", "Arial", sans-serif;
+	font-family: "Raleway", "Arial", sans-serif;
 	color: #fff;
 	overflow-x: hidden;
 }
@@ -206,6 +206,10 @@ nav{
 
 input::placeholder, textarea::placeholder{
 	color: #91dcff;
+}
+
+input:focus{
+	outline: none;
 }
 
 #send{
