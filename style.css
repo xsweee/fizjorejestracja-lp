@@ -40,6 +40,28 @@ nav{
 	width: 100%;
 }
 
+nav > span{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: #fff;
+	border-radius: 50px;
+
+	font-size: 12px;
+	margin: 8px 4px;
+	padding: 2px 15px;
+	background: linear-gradient(to bottom, #87e0fd 0%,#53cbf1 40%,#05abe0 100%);
+}
+
+.red-button{
+		background: linear-gradient(to bottom, #d5635d 0%,#d13028 100%);
+
+}
+
+#logo{
+	width: 90%;
+}
+
 #logo img{
 	width: 110px;
 }
