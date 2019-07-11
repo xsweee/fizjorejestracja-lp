@@ -56,6 +56,7 @@ nav{
 	background: #fff;
 	box-shadow: 0px 0px 15px -5px rgba(0,0,0,0.75);
 	width: 100%;
+	z-index: 999;
 }
 
 nav > span{
@@ -293,7 +294,7 @@ input:focus{
 	border: 2px solid #64c4f2;
 }
 
-/*---------------------------------*/
+/*----------------syf-----------------*/
 
 .forwho-bg{
 	height: 100%;
@@ -333,5 +334,66 @@ input:focus{
 }
 
 .page-content{
+	display: flex;
+	justify-content: center;
+	align-items: center;
 	width: 90%;
+}
+
+.price-list li{
+	color: #1baad6;
+	list-style-type: none;
+	padding: 5px;
+}
+
+.price-list li:before{
+	padding: 8px;
+	content: "\00BB             ";
+	font-weight: bold;
+}
+
+.prices-top{
+	z-index: 2 !important;
+}
+
+.prices{
+	z-index: 1;
+}
+
+.prices h1{
+/*	border-radius: 15px;
+*/	text-align: center;
+	color: #fff;
+	background: #1baad6;
+	padding:10px;
+	margin: 0;
+}
+.p-last{
+}
+
+.p-last ul{	
+	font-size: 14px;
+	padding:0;
+}
+
+.p-last ul li{
+	padding: 0;
+}
+
+h4{
+	border-radius: 0 0 15px 15px;
+	background: #1a89ab;
+	padding:10px;
+	margin: 0;
+}
+
+.offer{
+	padding: 130px 300px 100px 100px;
+	background: url('https://fizjorejestracja.pl/wp-content/themes/kartapacjenta/img/bus.png') center right no-repeat,
+	#fff;
+	background-size: 200px;
+}
+
+.XD{
+	font-size: 18px !important;
 }
