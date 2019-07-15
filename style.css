@@ -4,7 +4,7 @@
 }
 
 .shadow{
-	text-shadow: 1px 1px 7px rgba(154,154,154,0.5);
+	text-shadow: 1px 1px 1px rgba(154,154,154,0.5);
 }
 
 html, body{
@@ -13,7 +13,7 @@ html, body{
 	padding: 0;
 	margin: 0;
 
-	background: radial-gradient(#63daff, #66ace4);
+	background: #fefefe;
 
 	font-family: "Raleway", "Arial", sans-serif;
 	color: #fff;
@@ -21,10 +21,11 @@ html, body{
 }
 
 h1{
-	font-size: 56px;
+	font-size: 72px;
+	font-weight: 200;
 	margin: 0;
 
-	color: #1baad6;
+	color: #000;
 }
 
 .h1-white{
@@ -42,7 +43,7 @@ h1{
 h2{
 	margin-bottom: 20px;
 	margin-top: 0;
-	color: #1baad6;
+	color: #000;
 }
 
 nav{
@@ -64,29 +65,30 @@ nav > span{
 	justify-content: center;
 	align-items: center;
 	cursor: pointer;
-	color: #fff;
+	color: #000;
 	border-radius: 50px;
 
+	font-weight: 600;
 	font-size: 12px;
 	margin: 8px 4px;
 	padding: 2px 15px;
-	background: linear-gradient(to bottom, #87e0fd 0%,#53cbf1 40%,#05abe0 100%);
-}
+/*	background: linear-gradient(to bottom, #87e0fd 0%,#53cbf1 40%,#05abe0 100%);
+*/}
 
 nav > span:hover{
 	background: #fff;
-	border: 1px solid #1baad6;
-	color: #1baad6;
+/*	border: 1px solid #1baad6;
+*/	color: #1baad6;
 	transition: all .02s linear;
 }
 
 .red-button{
-		background: linear-gradient(to bottom, #d5635d 0%,#d13028 100%);
-
+/*		background: linear-gradient(to bottom, #d5635d 0%,#d13028 100%);
+*/
 }
 
 #logo{
-	width: 65%;
+	width: 69%;
 	cursor: pointer;
 }
 
@@ -95,8 +97,8 @@ nav > span:hover{
 }
 
 .talk{
-	background: url('https://i.ibb.co/8YWCWLy/bg.png');
-	background-size: 100%;
+/*	background: url('https://i.ibb.co/8YWCWLy/bg.png');
+*/	background-size: 100%;
 	width: 100vw;
 	height: 100%;
 }
@@ -127,21 +129,22 @@ nav > span:hover{
 
 .first{
 	flex-direction: row;
-	align-items: center;
+	align-items: flex-start;
 	flex-direction: column;
-	padding-left: 550px;
-	color: #1baad6;
+/*	padding-left: 550px;
+*/	color: #000;
+	font-weight: 200;
 }
 
 .extender{
-	padding-left: 300px;
+	padding-left: 100px;
 }
 
 .paragraph{
 	text-align: left;
 	font-size: 24px;
 	height: auto !important;
-	color: #1baad6;
+	color: #000;
 }
 
 .second{
@@ -156,16 +159,23 @@ nav > span:hover{
 	box-shadow: 0px 0px 15px -5px rgba(0,0,0,0.25);
 	overflow: hidden;
 	height: 300px;
-	width: 100%;
-	background:#63bad7;
+	width: 130%;
+	background: #fefefe;
 }
 
 .carousel_item{
 	display: flex;
 	align-items: center;
 	justify-content: center;
+
+	margin: 20px;
+	color: #222;
 	height: 200px;
-	color: #63bad7;
+	border: 1px solid #000;
+}
+
+.carousel_item > img{
+	height: 198px;
 }
 
 .carousel_item_content{
@@ -178,7 +188,7 @@ nav > span:hover{
 	width: 100%;
 	height: 340px;
 	background: #fff;
-	color: #63bad7;
+	color: #000;
 
 }
 
@@ -218,65 +228,77 @@ nav > span:hover{
 }
 
 .about_content{
-	color: #1baad6;	
+	color: #000;	
 	text-align: justify;
-	font-size: 18px;
-	padding: 0 150px 0 50px;
+	font-size: 24px;
 }
 
 .third{
 	display: flex;
-	justify-content: center;
+	justify-content: space-between;
 	align-items: center;
+}
+
+.third > div{
+	text-align: justify;
+	margin: 20px;
 }
 
 .checklist{
 	display: flex;
-	padding: 22px;
-	color: #1baad6;
+	color: #000;
 	flex-direction: column;
 	justify-content: center;
+	height: 100%;
 	font-size: 22px;
 
 	width: 40%;
-	background: #fcfcfc;
 	border-radius: 10px 0 0 10px;
 }
-
+	
 .checklist ul{
+	list-style-type: none;
 	font-size: 18px;
 }
 
 .form{
 	display: flex;
-	justify-content: center;
+	justify-content: space-between;
 	align-items: center;
 	flex-direction: column;
-	border-radius: 10px 10px 10px 10px;
+	height: 100%;
+	padding: 30px;
+	width: 45%;
+	border-left: 2px solid #1baad6;
+	color: #000;	
+}
 
-	width: 40%;
-	height: 500px;
-	background: #fff;
-	box-shadow: 0px 0px 15px -5px rgba(0,0,0,0.75);
+.form textarea{
+	height: 200px;
 }
 
 .form input, .form textarea{
 	margin: 2px;
 	padding: 20px;
-	width: 80%;
 	font-size: 14px;
-	color: #91dcff;
+	background: rgba(0, 0, 0, 0);
+	color: #000;
+	width: 100%;
 
-	background: #fff;
-	border: 2px solid #91dcff;
-	border-radius: 5px;
+	border: 2px solid rgba(0,0,0,0);
+	border-bottom: 2px solid #91dcff;
+}
+
+.form input[type=checkbox]{
+	width: 20px;
 }
 
 .form input:focus, .form textarea:focus{
-	background: #f4f7ff;
+	outline: none;
+	border: 2px solid #91dcff;
 }
 input::placeholder, textarea::placeholder{
-	color: #91dcff;
+	color: #aaa;
 }
 
 textarea{
@@ -288,8 +310,10 @@ input:focus{
 }
 
 #send{
-	background: #91dcff !important;
-	color: #fff;
+	background: #fff !important;
+	border: 2px solid #91dcff;
+	color: #000;
+	cursor: pointer;
 }
 
 #send:hover{
@@ -348,7 +372,7 @@ input:focus{
 }
 
 .price-list li{
-	color: #1baad6;
+	color: #000;
 	list-style-type: none;
 	padding: 5px;
 }
@@ -405,4 +429,70 @@ h4{
 
 .XD{
 	font-size: 18px !important;
+}
+
+
+.about-item{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin: 20px;	
+}
+
+.about-item img{
+	border: 3px solid;
+	border-radius: 50%;
+}
+
+.about-item span{
+	margin: 40px;
+}
+
+hr{
+	border: none;
+	border-top: 1px solid #1baad6;
+	width: 80%;
+}
+
+.indent{
+	text-indent: 20px;
+}
+
+#sekond{
+	justify-content: center;
+	align-items: center;
+}
+
+/*.statistic:after{
+	content: "Statystyki";
+}*/
+
+.statistic{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+/*	background: #000;*/
+	border: 3px solid #1baad6;
+	margin-top: 35px;
+}
+
+.statistic h1{
+	font-size: 54px;
+}
+
+.statistic-item{
+	font-family: Exo;
+	width: 33%;
+	padding: 50px;
+	margin: 20px;
+	text-align: center;
+	border-right: 1px solid #000;
+}
+
+.statistic-item h1{
+	margin-bottom: 50px;
+}
+
+.statistic-item:nth-last-child(1){
+	border: none;
 }

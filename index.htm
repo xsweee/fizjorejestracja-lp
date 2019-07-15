@@ -1,10 +1,23 @@
 <!DOCTYPE html>
 <html>
 <head>
+<script src="three.r92.min.js"></script>
+<script src="vanta.net.min.js"></script>
+<script>
+	window.addEventListener("load", function(){
+		VANTA.NET({
+		  el: "#sekond",
+		  color: 0xdbedf9,
+		  backgroundColor: 0xffffff
+		});
+	});
+</script>
 	<title>fizjorejestracja.pl -- landing page</title>
 	<link rel="stylesheet" type="text/css" href="style.css">
-	<link href="https://fonts.googleapis.com/css?family=Raleway&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Raleway:200,300,400,500,700,900&display=swap" rel="stylesheet">
 	<script type="text/javascript" src="script.js"></script>
+	<link href="https://fonts.googleapis.com/css?family=Exo&display=swap" rel="stylesheet">
+
 </head>
 <body>
 <nav>
@@ -22,8 +35,8 @@
 		<div class="extender">
 			<h1>Cześć!</h1>
 			<p class="paragraph">
-				Chcialibyśmy <strong>ułatwić ci pracę</strong> i cię wyręczyć!<br>
-				My, jako fizjorejestratorzy, czekamy na twój ruch.<br>
+				Chcialibyśmy <strong>ułatwić Ci pracę</strong> i Cię wyręczyć!<br>
+				My, jako fizjorejestratorzy, czekamy na Twój ruch.<br>
 				Nie zwlekaj, <strong>sprawdź już dziś!</strong>
 			</p>
 			<button class="readmore">Dowiedz się więcej!</button>
@@ -38,41 +51,67 @@
 				Stawiamy na uprzejmość, <strong>rzeczowość i profesjonalizm</strong> tworząc długofalową relację z Pacjentami.<br> Sami jesteśmy fizjoterapeutami i wiemy, co realnie poprawi naszą pracę. Nasza rejestracja w innowacyjny i przyjemny sposób wspomoże <strong>prowadzenie Twojego gabinetu</strong> i zyska dla Ciebie i Pacjenta więcej cennego czasu.
 			</p>	
 		</span>
-		<img src="https://fizjorejestracja.pl/wp-content/themes/kartapacjenta/img/bus.png" width="500px">
 	</div>
 	<div class="full third">
 		<div class="checklist">
 			<ul>
-				<h2>Dlaczego my?</h2>
+					<h1>Dlaczego my?</h1>
 				<p>Sami jesteśmy fizjoterapeutami, dlatego doskonale rozumiemy potrzeby tej grupy zawodowej!</p>
-				<li>Zaufało Nam już 57 fizjoterapeutów, którzy polecają Nas znajomym;</li>
-				<li>Obsługujemy kilkunastoosobowe przychodnie w największych miastach Polski, takich jak Warszawa, Wrocław, Kolbuszowa;</li>
-				<li>Nikt s ię na nas nie skarżył;</li>
-				<li>Zamieniliśmy już kilkanaście tysięcy miłych zdań z Pacjentami;</li>
-				<li>Jesteśmy jedynym takim serwisem w Polsce dla fizjoterapeutów!</li>
+				Zaufało Nam już 57 fizjoterapeutów, którzy polecają Nas znajomym
+				Obsługujemy kilkunastoosobowe przychodnie w największych miastach Polski, takich jak Warszawa, Wrocław, Kolbuszowa.
+				Nikt <s></s>ię na nas nie skarżył.
+				Zamieniliśmy już kilkanaście tysięcy miłych zdań z Pacjentami.
+				Jesteśmy jedynym takim serwisem w Polsce dla fizjoterapeutów!
 			</ul>
 		</div>
 		<div class="form">
-			<h2>Skontaktuj się z nami!</h2>
-			<input type="text" name="" placeholder="Imię i nazwisko">
-			<input type="email" name="" placeholder="Adres e-mail">
-			<input type="tel" name="" placeholder="Numer telefonu">
-			<textarea placeholder="Jakie masz pytania?"></textarea>
+			<div>
+				<h1>Skontaktuj się!</h1>
+				<input type="text" name="" placeholder="Imię i nazwisko">
+				<input type="email" name="" placeholder="Adres e-mail">
+				<input type="tel" name="" placeholder="Numer telefonu">
+				<textarea placeholder="Jakie masz pytania?"></textarea>	
+				<div>
+					<input type="checkbox" name="" style="display:inline"> Zapoznałem/łam się z polityką prywatności i wyrażam zgodę na przetwarzanie moich danych osobowych dla potrzeb procesu kontaktowego i realizacji zapytania.
+				</div>
+			</div>
 			<input type="submit" id="send" placeholder="text">
 		</div>
 	</div>
+
+	<div id="sekond" class="full first statistic-cointainer">
+			<h1>Statystyki</h1>
+		<div class="statistic">
+			<div class="statistic-item">
+				<h1>57</h1><b>Klientów</b>
+			</div>
+			<div class="statistic-item"><h1>1280</h1> <b>przepracowanych godzin</b>
+			</div>
+			<div class="statistic-item">
+				<h1>14 890</h1><b>przeprowadzonych miłych rozmów z Pacjentami</b>
+			</div>
+		</div>
+	</div>
+
 	<div class="carousel">
 		<div class="carousel_item">
-			<img src="https://i.ibb.co/GksN7HZ/item.png">
+			<img src="https://i.ibb.co/wsGMT6H/zachariasz.jpg">
+			<span>Jestem bardzo zadowolony! Od rejestracji dostaję informacje regularnie i na bieżąco, a każda prośba jest bardzo szybko i efektownie realizowana. Cenię również wysoką kulturę Pań rejestratorek - pacjenci bardzo sobie chwalą obsługę, przede wszystkim najbardziej potrzebujący pacjenci są bardzo szybko wpisywani w zwalniające się miejsca. <br><strong>Zachariasz Pryga</strong></strong></span>
 		</div>
 		<div class="carousel_item">
-			<img src="https://i.ibb.co/GksN7HZ/item.png">
+			<img src="https://i.ibb.co/920hcKL/Bez-nazwy.png">
+			<span>Jestem bardzo zadowolony! Od rejestracji dostaję informacje regularnie i na bieżąco, a każda prośba jest bardzo szybko i efektownie realizowana. Cenię również wysoką kulturę Pań rejestratorek - pacjenci bardzo sobie chwalą obsługę, przede wszystkim najbardziej potrzebujący pacjenci są bardzo szybko wpisywani w zwalniające się miejsca. <br><strong>Marcin Pochojka</strong></span>
 		</div>
 		<div class="carousel_item">
-			<img src="https://i.ibb.co/GksN7HZ/item.png">
+			<img src="https://i.ibb.co/9hqnWvm/345.png">
+			<span>Odkąd korzystam z fizjorejstracji.pl moja praca w gabinecie stała się bardziej płynna.  
+			Nie muszę martwić się sytuacją, gdy pacjent w ostatniej chwili odwołuje wizytę, ponieważ Panie rejestratorki dbają o to, aby w tym czasie zapełnić lukę wpisując oczekujące osoby.
+			Dodatkowo, podczas terapii mogę całkowicie skupić się na pracy z pacjentem, nie martwiąc się dzwoniącym telefonem, a po całym dniu w gabinecie zamiast nadrabiania nieodebranych połączeń, mogę efektywniej wykorzystać wolny czas.
+			A co najważniejsze, kontakt z obsługą strony jest perfekcyjny. Panie idealnie stosują się do moich uwag i propozycji grafiku.
+			Nie wyobrażam sobie teraz pracy bez pomocy fizjorejestracji. <br><strong>Alicja Tupaj</strong></span>
 		</div>
-		
 	</div>	
+
 	<div class="footer">
 		<div class="footer_item">
 			<img width="100px;" src="https://fizjorejestracja.pl/wp-content/themes/kartapacjenta/img/logo.png"><br><br>
@@ -95,6 +134,7 @@
 	</div>	
 <!-- 	<img src="https://i.ibb.co/8YWCWLy/bg.png" id="rozmowa" style=""> -->
 </div>
+
 <!-- <script>(function () {var script = document.createElement('script');script.src = 'https://cdnjs.cloudflare.com/ajax/libs/babel-polyfill/6.26.0/polyfill.min.js';script.async = false;document.head.appendChild(script);}())</script><script>var __cp = {"id":"IGB1rV7kxjR86hISUM23MyX4039lFG-yNelz7z5sWpk","version":"1.1"};(function (window, document) {var cp = document.createElement('script');cp.type = 'text/javascript';cp.async = false;cp.src = "++cdn-widget.callpage.io+build+js+callpage.js".replace(/[+]/g, '/').replace(/[=]/g, '.');var s = document.getElementsByTagName('script')[0];s.parentNode.insertBefore(cp, s);if (window.callpage) {alert('You could have only 1 CallPage code on your website!');} else {/*process the queue of calls*/window.callpage = function (method) {if (method == '__getQueue') {return this.methods;}else if (method) {if (typeof window.callpage.execute === 'function') {return window.callpage.execute.apply(this, arguments);}else {(this.methods = this.methods || []).push({arguments: arguments});}}};window.callpage.__cp = __cp;/*here comes execution*/window.callpage('api.button.autoshow');}})(window, document);</script> -->
 </body>
 </html>
